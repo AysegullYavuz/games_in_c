@@ -8,7 +8,6 @@ int main()
     int num = rand() % 100;
     int n, count = 1;
     
-
     do
     {
         printf("Enter you number\n");
@@ -25,6 +24,6 @@ int main()
         else
             printf("You got right %d in %d attempts!!!!\n", num, count);
         count++;
-        printf("***********************************************\n");
+        
     } while (n != num);
 }
